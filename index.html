@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <!----Font awesome cdn  font icon css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="hero-header">
+      <div class="wrapper">
+        <header>
+          <div class="logo">
+            <i class="fa-solid fa-a"></i>
+            <div class="logo-text" data-testid="slackDispalyName">
+              NELSON ODUMAH
+            </div>
+          </div>
+          <nav>
+            <div class="togglebtn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="navlinks">
+              <li><a href="#">Home</a></li>
+              <!-- <li><a href="#"></a></li> -->
+              <li><a href="#">About me</a></li>
+              <!-- <li><a href="#">Blog</a></li> -->
+              <li><a href="#contact">Contact Infos</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="container">
+          <div class="hero-pic">
+            <img
+              src="images/nelson.jpg"
+              alt="profile pic"
+              data-testid="slackProfilePicture"
+            />
+          </div>
+          <div class="hero-text">
+            <h5>Hi I'm <span class="input">Frontend Developer</span></h5>
+            <h1>NELSON ODUMAH</h1>
+            <h3>MY GOALS FOR THE NEXT TWO YEARS IN TECH</h3>
+            <p>
+              As a passionate and dedicated frontend developer, my overarching goal for the next two years is to deepen my technical expertise, expand my professional network, and advance my career in the tech industry. Here’s a detailed plan outlining my goals and the steps I will take to achieve them.
+            </p>
+
+            <!-- <div class="btn-group">
+              <a href="#" class="btn active">Download CV</a>
+              <a href="#" class="btn">Contact</a>
+            </div> -->
+
+            <!-- <div class="social">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-pintrest"></i></a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <section id="contact">
+        <div class="contact-section" data-testid="contact-section">
+          <h2>REQUIRED DETAILS</h2>
+          <form>
+            <div>
+              <h2 data-testid="slackDispalyName">NAME : <p>Nelson Odumah</p></h2>
+            </div>
+
+            <div>
+              <h2 data-testid="slackEmail">EMAIL : <p></p>odumahnelson300@gmail.com</p></h2>
+            </div>
+
+            <div>
+              <h2>DATE:</h2>
+              <div id="dateTime" data-testid="currentTimeUTC"></div>
+              <div id="weekNumber" data-testid="currentDay"></div>
+            </div>
+
+            <div class="hngLink">
+              <h2>HNG INTERNSHIP LINKS:</h2>
+              <p><a href="https://hng.tech/" target="_blank" data-testid="hngLink">HNG TECH</a></p>
+              <p><a href="https://keyword.dog/" target="_blank" data-testid="keywordLink">KeywordLink</a>
+              <p><a href="https://scrapeanyweb.site/" target="_blank" data-testid="scrapeanywebLink">scrapeanywebLink</a></p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+            
+    <script src="./script.js"></script>
+  </body>
+</html>
