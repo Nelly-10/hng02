@@ -275,4 +275,7 @@ nav .navlinks li a {
   .hero-text {
     padding: 40px 0px;
   }
+  #contact {
+    padding: 40px;
+  }
 }
